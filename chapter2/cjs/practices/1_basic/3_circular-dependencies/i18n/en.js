@@ -1,10 +1,10 @@
-const { ButtonI18n } = require('../Button')
+const { ButtonI18n } = require("../ButtonI18n");
 
 const lang = {
   common: {
-    back: 'back',
+    back: "back",
   },
   button: { ...ButtonI18n.en },
-}
+};
 
-module.exports = lang
+module.exports = lang;
